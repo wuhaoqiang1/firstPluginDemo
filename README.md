@@ -13,14 +13,14 @@
 ### 方法一：直接安装
 
 ```bash
-/plugin install https://github.com/your-username/demo-plugin.git
+/plugin install https://github.com/wuhaoqiang1/firstPluginDemo.git
 ```
 
 ### 方法二：先添加市场，再安装插件
 
 ```bash
-/plugin marketplace add https://github.com/your-username/demo-plugin.git
-/plugin install demo-plugin-marketplace/demo-plugin
+/plugin marketplace add https://github.com/wuhaoqiang1/firstPluginDemo.git
+/plugin install demo-plugin@demo-plugin-marketplace
 ```
 
 ## 使用方法
