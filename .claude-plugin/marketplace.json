@@ -1,0 +1,20 @@
+{
+  "name": "demo-plugin-marketplace",
+  "id": "demo-plugin-marketplace",
+  "owner": {
+    "name": "Your Name"
+  },
+  "plugins": [
+    {
+      "name": "demo-plugin",
+      "source": "./",
+      "description": "一个简单的Claude Code插件示例",
+      "version": "1.0.0",
+      "author": {
+        "name": "Your Name"
+      },
+      "keywords": ["demo", "example", "learning"],
+      "category": "development"
+    }
+  ]
+}

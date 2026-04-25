@@ -1,0 +1,16 @@
+{
+  "description": "在编辑文件时提供简单的提醒",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "请确认：你确定要修改这个文件吗？"
+          }
+        ]
+      }
+    ]
+  }
+}
